@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --text-color: #20242a;
+  --button-text-color: rgb(245, 247, 248);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  color: var(--text-color);
+}
+
+.item__views {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.item__image {
+  display: flex;
+  gap: 12px;
+}
+
+.item__shirt-sizes {
+  display: flex;
+  gap: 16px;
+  padding: 12px 0;
+}
+
+.item__title {
+  width: 400px;
+  line-height: 2.5rem;
+}
+
+.item__overall-price {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-top: 12px;
+}
+
+.item__overall-price h2 {
+  margin: 0;
+}
+
+.item__views img:nth-of-type(1) {
+  border: solid 1px rgb(45, 75, 117);
+  border-radius: 4px;
+}
+
+.item__discount {
+  border-radius: 4px;
+  padding: 0px 2px;
+  background: rgb(15, 73, 173);
+  color: var(--button-text-color);
+  font-size: 0.8rem;
+}
+
+.item__choose-size {
+    padding-top: 12px;
+}
+
+.item__shirt-sizes div:nth-of-type(3) {
+  background: rgb(0, 0, 0);
+  color: var(--button-text-color);
+  padding: 0 8px;
+}
+
+.item__shirt-sizes div {
+  padding: 0px 3px;
+}
+
+.item__buy-button {
+  height: 32px;
+  width: 100%;
+  background: #146edc;
+  color: var(--button-text-color);
+  border-radius: 24px;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  padding: 0;
+}
