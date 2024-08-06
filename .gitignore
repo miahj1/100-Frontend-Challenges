@@ -1,2 +1,7 @@
 # Mac Specific
 *.DS_Store
+
+# Template Extension
+.fttemplates
+
+.vscode
