@@ -1,2 +1,2 @@
 # 100 Frontend Challenges
-I will do the 100 frontend challenge using vanilla JS and HTML/CSS.
+The challenges are all from [dev.to](https://dev.to/bigsondev/100-free-frontend-challenges-3f0).
